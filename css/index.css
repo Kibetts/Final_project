@@ -61,4 +61,15 @@ nav a {
       padding: 10px;
       border-radius: 10px;
     }
-    
+    #services p, ul li{
+      margin-left: 230px;
+      width: 60%;
+      color: azure;
+      font-size: 22px;
+      border: 2px s;
+      
+  
+    }
+    .meetspan span{
+      color: rgb(255, 219, 88);
+    }
