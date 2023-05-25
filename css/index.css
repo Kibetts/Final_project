@@ -54,11 +54,11 @@ nav a {
     }
     
     #about #vision #mission #services #faqs #contacts, p{
-     
+      margin-left: 230px;
       width: 60%;
       font-size: 22px;
       color: azure;
       padding: 10px;
-      
+      border-radius: 10px;
     }
     
