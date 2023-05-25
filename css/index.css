@@ -24,4 +24,12 @@ body{
   position: relative;
   background-blend-mode: darken;
 }
+nav ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-left: 180px;
+  width: 60%;
+  font-size: 35px;
+}
 
