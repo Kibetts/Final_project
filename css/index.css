@@ -40,3 +40,9 @@ nav a {
   color: black;
 }
 
+#about h2, #vision h2, #mission h2, #services h2, #faqs h2, #contacts 
+   {
+    margin-left: 230px;
+    width: 60%;
+    font-size: 30px;
+  }
