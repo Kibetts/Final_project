@@ -46,3 +46,10 @@ nav a {
     width: 60%;
     font-size: 30px;
   }
+
+  nav ul li :hover{
+    background-color: rgb(255, 219,88);
+    text-decoration: underline;
+    border-radius: 5px;
+    }
+    
