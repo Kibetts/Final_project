@@ -33,3 +33,10 @@ nav ul li {
   font-size: 35px;
 }
 
+nav a {
+  text-decoration: none;
+  padding: 5px;
+  list-style: none;
+  color: black;
+}
+
