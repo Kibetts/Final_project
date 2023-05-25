@@ -17,5 +17,11 @@ h1 {
   font-size: 80px;
 }
 
-
+body{
+  background-color: rgba(0, 0, 0, 0.432);
+  background-image: url("../assets/beeflower.jpg");
+  background-size: cover;
+  position: relative;
+  background-blend-mode: darken;
+}
 
