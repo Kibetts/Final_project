@@ -1,4 +1,4 @@
-header {
+/* header {
   margin: 0;
   margin-top: 30px;
   padding: 0;
@@ -81,6 +81,107 @@ nav a {
       display: block;
       animation: slideIn 1s ease-in-out;
     }
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    } */
+
+    header {
+      margin: 0;
+      margin-top: 30px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      border: 3px solid black;
+      border-radius: 5px;
+      height: 50px;
+      align-items: center;
+      font-size: 65px;
+    }
+    
+    h1 {
+      margin-top: 230px;
+      margin-left: 230px;
+      font-size: 80px;
+    }
+  
+    body{
+      background-color: rgba(0, 0, 0, 0.432);
+      background-image: url("../assets/beeflower.jpg");
+      background-size: cover;
+      position: relative;
+      background-blend-mode: darken;
+      
+    }
+    
+    nav ul li {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px;
+      margin-left: 180px;
+      width: 60%;
+      font-size: 35px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      padding: 5px;
+      list-style: none;
+      color: black;
+    }
+  
+    #about h2, #vision h2, #mission h2, #services h2, #faqs h2, #contacts h2
+     {
+      margin-left: 230px;
+      width: 60%;
+      font-size: 30px;
+    }
+    
+  
+  nav ul li :hover{
+  background-color: rgb(255, 219,88);
+  text-decoration: underline;
+  border-radius: 5px;
+  }
+  
+    #about #vision #mission #services #faqs #contacts, p{
+      margin-left: 230px;
+      width: 60%;
+      font-size: 22px;
+      color: azure;
+      border: 2px solid azure;
+      padding: 10px;
+      border-radius: 10px;
+      
+    }
+    #services p, ul li{
+      margin-left: 230px;
+      width: 60%;
+      color: azure;
+      font-size: 22px;
+      border: 2px s;
+      
+  
+    }
+    .meetspan span{
+      color: rgb(255, 219, 88);
+    }
+    
+    .tab {
+      display: none;
+    }
+    
+    .tab.active {
+      display: block;
+      animation: slideIn 1s ease-in-out;
+    }
+    
     @keyframes slideIn {
       0% {
         opacity: 0;
