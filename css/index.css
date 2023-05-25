@@ -53,3 +53,12 @@ nav a {
     border-radius: 5px;
     }
     
+    #about #vision #mission #services #faqs #contacts, p{
+     
+      width: 60%;
+      font-size: 22px;
+      color: azure;
+      padding: 10px;
+      
+    }
+    
